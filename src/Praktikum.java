@@ -8,9 +8,7 @@ public class Praktikum {
             int year = 0;
             try {
                 year = scanner.nextInt();
-                
             } catch (Exception e) {
-                
                 System.out.println(e.toString());
             }
             if (year == 0){
@@ -20,7 +18,6 @@ public class Praktikum {
                 if (isLeapYear(year)) {
                      System.out.println("13.09." + year);
                 }else System.out.println("12.09." + year);
-            
         }
     }
 
